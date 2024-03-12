@@ -8,5 +8,5 @@ varying vec3 color;
 void main()
 {
     color = vcolor;
-    gl_Position = rotatex*rotatey*rotatez*vec4(vecposition,0.0, 1.0);
+    gl_Position = rotatex*rotatey*vec4(vecposition,0.0, 1.0);
 }
